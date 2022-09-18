@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
     GameObject target;
     public float speed;
     Rigidbody2D bulletRB;
+    public int damage = 1;
+
     void Start()
     {
         bulletRB = GetComponent<Rigidbody2D>();
@@ -16,5 +18,11 @@ public class Bullet : MonoBehaviour
         Destroy(this.gameObject, 2);
     }
 
-
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") == true)
+        {
+            collision.gameObject.GetComponent<PlayerState>().DoHarm(damage);
+        }
+    }
 }
