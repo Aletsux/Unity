@@ -6,7 +6,6 @@ public class StartMeny_ExitGame : MonoBehaviour
 {
     public void ExitGame()
     {
-        UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
     }
 
