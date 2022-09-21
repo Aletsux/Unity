@@ -992,7 +992,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268437456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.06443, y: -1.3163271, z: -21.486305}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6576,7 +6576,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403637309}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.06443, y: -0.619565, z: -21.486305}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9145,7 +9145,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953772105}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 75.82, y: 15.14, z: 21.486305}
+  m_LocalPosition: {x: 82.14, y: 13.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9166,7 +9166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bfa0985a893bea4eb6fd22a22450cda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: 1
+  levelToLoad: 2
   startPosition: {fileID: 1491079483}
 --- !u!61 &953772109
 BoxCollider2D:
@@ -9181,7 +9181,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.14097166}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -9192,7 +9192,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.7180481, y: 1.0469904}
   m_EdgeRadius: 0
 --- !u!1 &973195079
 GameObject:
@@ -14132,7 +14132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058423505}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.0662384, y: -1.3187971, z: -21.486305}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16824,7 +16824,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608027131}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.0695343, y: -0.62940884, z: -21.486305}
+  m_LocalPosition: {x: 0, y: 0.65, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24063,11 +24063,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -101.9
+      value: -101.3
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.83
+      value: 26.9
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -24100,6 +24100,30 @@ PrefabInstance:
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_Size.x
+      value: 0.701622
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_Size.y
+      value: 1.2023449
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.0054512024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0006093979
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.72380954
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245584, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.2190477
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245585, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_Name
