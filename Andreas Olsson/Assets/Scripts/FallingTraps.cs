@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Falling : MonoBehaviour
+public class FallingTraps : MonoBehaviour
 {
     Rigidbody2D _rb;
     // Start is called before the first frame update
