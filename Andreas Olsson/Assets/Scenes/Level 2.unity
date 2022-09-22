@@ -1536,9 +1536,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.014846072, y: -0.07525158}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0.008, z: 0, w: 0}
     pivot: {x: 0.48005724, y: 0.440171}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.024, y: 0.904}
     newSize: {x: 1.024, y: 1.024}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5079,7 +5079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  jumpForce: 23
+  jumpForce: 19
 --- !u!61 &1349382825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5095,9 +5095,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.012320757, y: -0.084602356}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0.008, z: 0, w: 0}
     pivot: {x: 0.48005724, y: 0.440171}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.024, y: 0.904}
     newSize: {x: 1.024, y: 1.024}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10264,9 +10264,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.02042389, y: -0.07452965}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0.008, z: 0, w: 0}
     pivot: {x: 0.48005724, y: 0.440171}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.024, y: 0.904}
     newSize: {x: 1.024, y: 1.024}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10288,7 +10288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  jumpForce: 25
+  jumpForce: 21
 --- !u!1 &1473535009
 GameObject:
   m_ObjectHideFlags: 0
@@ -10472,7 +10472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  jumpForce: 35
+  jumpForce: 27
 --- !u!61 &1476845644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10488,9 +10488,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.010482788, y: -0.07786322}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0.008, z: 0, w: 0}
     pivot: {x: 0.48005724, y: 0.440171}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.024, y: 0.904}
     newSize: {x: 1.024, y: 1.024}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -10756,7 +10756,6 @@ Transform:
   - {fileID: 1825789315}
   - {fileID: 27223344}
   - {fileID: 1757752961}
-  - {fileID: 1838914242}
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10861,9 +10860,9 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0.020421386, y: -0.066553116}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0.008, z: 0, w: 0}
     pivot: {x: 0.48005724, y: 0.440171}
-    oldSize: {x: 1.024, y: 1.024}
+    oldSize: {x: 1.024, y: 0.904}
     newSize: {x: 1.024, y: 1.024}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -11149,7 +11148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838914241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.354103, y: -14.816887, z: -0.6601393}
+  m_LocalPosition: {x: 125.69551, y: 23.484226, z: -0.5558474}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11158,8 +11157,8 @@ Transform:
   - {fileID: 355797485}
   - {fileID: 1476845641}
   - {fileID: 1349382822}
-  m_Father: {fileID: 1746182616}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1883737417
 GameObject:
@@ -12090,11 +12089,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 118.95
+      value: 149.75
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 33.75
+      value: 25.7
       objectReference: {fileID: 0}
     - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.z
