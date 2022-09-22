@@ -15,11 +15,9 @@ public class PlayerMovement : MonoBehaviour
     private bool boosting;
     public GameObject objectToFind;
     string tagName = "SpeedBoost";
-    
-    
-    
-    
-   
+    AudioSource _as;
+    public AudioSource jumpSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
         _sr = GetComponent<SpriteRenderer>();
         _ar = GetComponent<Animator>();
         _bc = GetComponent<BoxCollider2D>();
+        _as = GetComponent<AudioSource>();
        
         
     }
@@ -42,6 +41,18 @@ public class PlayerMovement : MonoBehaviour
         //Move
         var movement = Input.GetAxis("Horizontal");
         transform.position += new Vector3(movement, 0, 0) * Time.deltaTime * moveSpeed;
+        if(IsGrounded() && movement != 0)
+        {
+            if (!_as.isPlaying)
+            {
+                _as.Play();
+            }
+        }
+        else
+        {
+            _as.Stop();
+        }
+
         //SpeedBoost
         if (boosting)
         {
@@ -67,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
         //Jump
         if (IsGrounded() && Input.GetButtonDown("Jump"))
         {
+            jumpSound.Play();
             _ar.SetTrigger("Takeoff");
             _rb.velocity = Vector2.up * jumpForce;
         }

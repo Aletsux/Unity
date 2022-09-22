@@ -7,6 +7,7 @@ public class Death : MonoBehaviour
 {
     private Animator _ar;
     private Rigidbody2D _rb;
+    public AudioClip deathSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class Death : MonoBehaviour
 
     private void Die()
     {
+        AudioSource.PlayClipAtPoint(deathSound, transform.position);
         //_rb.bodyType = RigidbodyType2D.Static; funkar inte
         //_rb.constraints = RigidbodyConstraints2D.FreezeAll; funkar inte
         _ar.SetTrigger("Death");
