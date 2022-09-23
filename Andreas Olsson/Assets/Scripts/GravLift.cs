@@ -5,6 +5,7 @@ using UnityEngine;
 public class GravLift : MonoBehaviour
 {
 	[SerializeField] Animator animator;
+	public AudioSource gravLiftSound;
 
 	[SerializeField] float jumpForce = 5f;
 
@@ -12,6 +13,7 @@ public class GravLift : MonoBehaviour
 	{
 		if (collision.transform.CompareTag("Player"))
 		{
+			gravLiftSound.Play();
 			collision.gameObject.GetComponent<Rigidbody2D>().velocity = (Vector2.up * jumpForce);
 		}
 	}
