@@ -16,5 +16,6 @@ public class SpawnEnemy : MonoBehaviour
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
-  
+
 }
+

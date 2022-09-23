@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class BossDamage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public int damage = 1;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.CompareTag("Player") == true)
+        {
+            collision.gameObject.GetComponent<PlayerState>().DoHarm(damage);
+        }
     }
 }

@@ -8,6 +8,7 @@ public class NextLevel : MonoBehaviour
     // Start is called before the first frame update
     [SerializeField] int levelToLoad;
     [SerializeField] GameObject startPosition;
+    public AudioSource doorSound;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -16,6 +17,7 @@ public class NextLevel : MonoBehaviour
             if(collision.GetComponent<PlayerQuest>() == true)
             {
                 GameObserver.SaveCoinsToMemory(collision.GetComponent<CoinPicker>().Coin);
+                doorSound.Play();
                 SceneManager.LoadScene(levelToLoad);
             }
         }

@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class BulletScript : MonoBehaviour
 {
     GameObject target;
     public float speed;
     Rigidbody2D bulletRB;
-    public int damage = 1;
+    
 
     void Start()
     {
@@ -18,11 +18,4 @@ public class Bullet : MonoBehaviour
         Destroy(this.gameObject, 2);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player") == true)
-        {
-            collision.gameObject.GetComponent<PlayerState>().DoHarm(damage);
-        }
-    }
 }
