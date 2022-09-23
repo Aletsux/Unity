@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     string tagName = "SpeedBoost";
     AudioSource _as;
     public AudioSource jumpSound;
+    public AudioSource pickUpSound;
 
     // Start is called before the first frame update
     void Start()
@@ -99,6 +100,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(objectToFind)
         {
+            pickUpSound.Play();
             boosting = true;
             moveSpeed = 7;
             Destroy(objectToFind);
