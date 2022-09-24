@@ -24,7 +24,7 @@ public class Death : MonoBehaviour
             
     }
 
-    private void Die()
+    public void Die()
     {
         AudioSource.PlayClipAtPoint(deathSound, transform.position);
         //_rb.bodyType = RigidbodyType2D.Static; funkar inte
@@ -33,7 +33,7 @@ public class Death : MonoBehaviour
     }
     public void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("GameOver");
     }
         
 }

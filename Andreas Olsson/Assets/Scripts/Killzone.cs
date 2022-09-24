@@ -14,6 +14,6 @@ public class Killzone : MonoBehaviour
     }
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("GameOver");
     }
 }

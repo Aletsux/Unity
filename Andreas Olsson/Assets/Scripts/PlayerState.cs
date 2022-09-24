@@ -8,6 +8,8 @@ public class PlayerState : MonoBehaviour
 {
     [SerializeField] float health, maxHealth = 3f;
     public AudioSource hurtSound;
+    public AudioClip deathSound;
+    private Death deathScript;
 
     private Animator _ar;
     public GameObject respawnPosition;
@@ -36,6 +38,6 @@ public class PlayerState : MonoBehaviour
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        SceneManager.LoadScene("GameOver");
     }
 }
