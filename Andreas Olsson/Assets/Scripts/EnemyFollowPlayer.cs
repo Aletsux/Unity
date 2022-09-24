@@ -12,16 +12,20 @@ public class EnemyFollowPlayer : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletParent;
     private Transform player;
- 
+    public Transform playerCharacter;
+    private SpriteRenderer spriteRenderer;
+
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        this.spriteRenderer = this.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        this.spriteRenderer.flipX = playerCharacter.transform.position.x < this.transform.position.x;
         float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
         if (distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
         {
