@@ -11,6 +11,7 @@ public class QuestGiver : MonoBehaviour
     [SerializeField] private string questIsCompleteText;
     [SerializeField] private int amountToCollect = 1;
     [SerializeField] private GameObject DoorToNextLevel;
+    public AudioSource terminalSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,7 @@ public class QuestGiver : MonoBehaviour
     {
         if (collision.CompareTag("Player") == true)
         {
+            terminalSound.Play();
             QuestGiverText.SetActive(true);
         }
         if (collision.GetComponent<CoinPicker>().Coin >= amountToCollect)
