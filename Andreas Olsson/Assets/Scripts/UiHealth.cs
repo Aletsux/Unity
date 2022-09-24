@@ -14,7 +14,7 @@ public class UiHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerHealthPoints = playerState.initialHealthPoints;
+        //playerHealthPoints = playerState.initialHealthPoints;
         slider = gameObject.GetComponent<Slider>();
         slider.wholeNumbers = true;
         slider.maxValue = playerHealthPoints;
@@ -23,6 +23,6 @@ public class UiHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        slider.value = playerState.initialHealthPoints;
+        //slider.value = playerState.initialHealthPoints;
     }
 }

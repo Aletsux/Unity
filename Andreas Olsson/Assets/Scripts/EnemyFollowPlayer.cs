@@ -12,6 +12,8 @@ public class EnemyFollowPlayer : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletParent;
     private Transform player;
+ 
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;

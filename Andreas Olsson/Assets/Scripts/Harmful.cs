@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class Harmful : MonoBehaviour
 {
-    public int damage = 1;
     public AudioSource hurtSound;
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") == true)
+        if (collision.gameObject.TryGetComponent<PlayerState>(out PlayerState playerTakesDamage))
         {
-            collision.gameObject.GetComponent<PlayerState>().DoHarm(damage);
             hurtSound.Play();
+            playerTakesDamage.TakeDamage(1);
         }
     }
 }

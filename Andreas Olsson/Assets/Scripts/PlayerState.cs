@@ -6,30 +6,27 @@ using UnityEngine.SceneManagement;
 
 public class PlayerState : MonoBehaviour
 {
-    public int healthPoints = 2;
-    public int initialHealthPoints = 2;
+    [SerializeField] float health, maxHealth = 3f;
+    public AudioSource hurtSound;
+
     private Animator _ar;
     public GameObject respawnPosition;
     void Start()
     {
-        healthPoints = initialHealthPoints;
+        health = maxHealth;
         _ar = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TakeDamage(float damageAmount)
     {
+        health -= damageAmount;
+        hurtSound.Play();
 
-    }
-
-    public void DoHarm(int doHarmByThisMuch)
-    {
-        healthPoints -= doHarmByThisMuch;
-        if (healthPoints <= 0)
+        if (health <= 0)
         {
+            Destroy(gameObject);
             RestartLevel();
         }
-
     }
 
     public void Respawn()
