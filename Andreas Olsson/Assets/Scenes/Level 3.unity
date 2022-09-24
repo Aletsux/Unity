@@ -2639,6 +2639,7 @@ MonoBehaviour:
   bullet: {fileID: 6906221413804347234, guid: da815cdf8d6c3974cbde0d8bfab1ba68, type: 3}
   bulletParent: {fileID: 11045063}
   playerCharacter: {fileID: 1381599341}
+  bulletSound: {fileID: 517899976}
 --- !u!212 &1329236443
 SpriteRenderer:
   m_ObjectHideFlags: 0

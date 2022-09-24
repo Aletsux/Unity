@@ -14,6 +14,7 @@ public class EnemyFollowPlayer : MonoBehaviour
     private Transform player;
     public Transform playerCharacter;
     private SpriteRenderer spriteRenderer;
+    public AudioSource bulletSound;
 
 
     void Start()
@@ -34,6 +35,7 @@ public class EnemyFollowPlayer : MonoBehaviour
         else if (distanceFromPlayer <= shootingRange && nextFireTime < Time.time)
         {
             Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+            bulletSound.Play();
             nextFireTime = Time.time + fireRate;
         }
     }
