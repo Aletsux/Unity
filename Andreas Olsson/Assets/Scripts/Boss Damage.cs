@@ -9,7 +9,7 @@ public class BossDamage : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") == true)
         {
-            collision.gameObject.GetComponent<PlayerState>().DoHarm(damage);
+            collision.gameObject.GetComponent<PlayerState>().TakeDamage(damage); //Changed .DoHarm to TakeDamage, Alex
         }
     }
 }
