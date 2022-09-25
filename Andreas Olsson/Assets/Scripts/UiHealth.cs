@@ -6,21 +6,23 @@ using UnityEngine.SceneManagement;
 
 public class UiHealth : MonoBehaviour
 {
-    Image healthBar;
-    float maxHealth = 3;
-    public static float health;
+    public PlayerState playerState;
+    int playerHealthPoints;
+    private Slider slider;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        healthBar = GetComponent<Image>();
-        health = maxHealth;
+        //playerHealthPoints = playerState.initialHealthPoints;
+        slider = gameObject.GetComponent<Slider>();
+        slider.wholeNumbers = true;
+        slider.maxValue = playerHealthPoints;
     }
 
     // Update is called once per frame
     void Update()
     {
-        healthBar.fillAmount = health / maxHealth;
+        //slider.value = playerState.initialHealthPoints;
     }
 }

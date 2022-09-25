@@ -22,7 +22,6 @@ public class PlayerState : MonoBehaviour
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
-        UiHealth.health -= damageAmount;
         hurtSound.Play();
 
         if (health <= 0)
