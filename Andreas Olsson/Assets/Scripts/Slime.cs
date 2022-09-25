@@ -17,10 +17,10 @@ public class Slime : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Vector3 newPosition = gameObject.transform.position;
-        newPosition.x += speed * Time.deltaTime * moveDirection;
+        newPosition.x += speed * Time.fixedDeltaTime * moveDirection;
         _rb.MovePosition(newPosition);
 
         CheckForGround();
