@@ -98,7 +98,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(objectToFind)
+        if(collision.CompareTag("SpeedBoost") == true)
         {
             pickUpSound.Play();
             boosting = true;
