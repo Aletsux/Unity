@@ -49726,6 +49726,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -100.8
       objectReference: {fileID: 0}
     - target: {fileID: 500683706905303991, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
@@ -49766,6 +49767,13 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 26.75
 >>>>>>> parent of 5d3ff703 (Update Level 1.unity)
+=======
+      value: -100.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 500683706905303991, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.75
+>>>>>>> parent of 79055f7d (Fixade Ui för Health)
       objectReference: {fileID: 0}
     - target: {fileID: 500683706905303991, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.z
