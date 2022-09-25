@@ -12539,8 +12539,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe74d84cc34d634428e6063c2d059fc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  maxHealth: 10
+  health: 5
+  maxHealth: 5
 --- !u!114 &1329236439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12553,9 +12553,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77b86a5e78f31224eb99bbef3b2d8ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7.04
+  speed: 3
   lineOfSite: 11.94
-  shootingRange: 3.33
+  shootingRange: 4.56
   fireRate: 1
   bullet: {fileID: 6906221413804347234, guid: da815cdf8d6c3974cbde0d8bfab1ba68, type: 3}
   bulletParent: {fileID: 11045063}
@@ -12621,7 +12621,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1329236437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 138.52, y: -9.47, z: 0}
+  m_LocalPosition: {x: 139.43, y: -2.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
