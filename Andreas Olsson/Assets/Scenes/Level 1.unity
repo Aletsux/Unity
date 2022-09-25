@@ -49795,6 +49795,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 26.75
 >>>>>>> parent of 7ef7807a (Merge branch 'Alex2.0')
+      value: -100.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 500683706905303991, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 26.75
       objectReference: {fileID: 0}
     - target: {fileID: 500683706905303991, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
       propertyPath: m_LocalPosition.z
