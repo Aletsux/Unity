@@ -657,7 +657,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 14
+=======
+  m_RootOrder: 21
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &132505455
 GameObject:
@@ -6991,6 +6995,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &467374679
@@ -7023,6 +7028,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1512384002}
   m_RootOrder: 0
+=======
+  m_RootOrder: 16
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -7619,7 +7627,116 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f6e446879e925045a4ddea4befbedbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   hurtSound: {fileID: 998277260}
+=======
+  damage: 1
+--- !u!1 &645106177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 645106180}
+  - component: {fileID: 645106179}
+  - component: {fileID: 645106178}
+  m_Layer: 0
+  m_Name: Jetpack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &645106178
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645106177}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 42ebf68b164a3d549a568195a214563a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!212 &645106179
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645106177}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: ce456c6dc22ad0d4dbdfefa416c2741f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &645106180
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645106177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -68.05, y: 28.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
 --- !u!1 &653525625
 GameObject:
   m_ObjectHideFlags: 0
@@ -25254,7 +25371,11 @@ Transform:
   - {fileID: 800648293}
   - {fileID: 749741317}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 10
+=======
+  m_RootOrder: 17
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &953772108
 MonoBehaviour:
@@ -32113,7 +32234,11 @@ RectTransform:
   - {fileID: 1260448275}
   - {fileID: 196477722}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 15
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -32153,6 +32278,7 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 718473189}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 4188294387282202406, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.025596095
@@ -32161,6 +32287,8 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -322.00027
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
     - target: {fileID: 4188294387918579137, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_Name
       value: QuestGiver (1)
@@ -32211,11 +32339,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 158.43
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalPosition.y
       value: -12.03
+=======
+      value: 102.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.97
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -32249,6 +32385,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4188294388500664185, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -543.62
@@ -32263,6 +32400,8 @@ PrefabInstance:
 
 '
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
 --- !u!1 &1142520335
@@ -43044,7 +43183,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 13
+=======
+  m_RootOrder: 20
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1417201599 stripped
 Transform:
@@ -43088,7 +43231,11 @@ Transform:
   - {fileID: 973195080}
   - {fileID: 1933835758}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 4
+=======
+  m_RootOrder: 10
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1473535009
 GameObject:
@@ -43203,7 +43350,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 11
+=======
+  m_RootOrder: 18
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1512383998
 GameObject:
@@ -43317,7 +43468,11 @@ Transform:
   m_Children:
   - {fileID: 467374680}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 12
+=======
+  m_RootOrder: 19
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1512384003
 Animator:
@@ -43661,8 +43816,13 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 1919755551}
   m_RootOrder: 3
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 23
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1678365841
 GameObject:
@@ -43713,7 +43873,11 @@ Transform:
   - {fileID: 1285008126}
   - {fileID: 898994676}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 15
+=======
+  m_RootOrder: 22
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!19719996 &1678365844
 TilemapCollider2D:
@@ -44276,7 +44440,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 14
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1919755550
 GameObject:
@@ -44314,7 +44482,11 @@ Transform:
   - {fileID: 998277259}
   - {fileID: 598850517}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 16
+=======
+  m_RootOrder: 24
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1933835757
 GameObject:
@@ -49846,6 +50018,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4188294387282202406, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+<<<<<<< HEAD
       propertyPath: m_SizeDelta.x
       value: 178.267
       objectReference: {fileID: 0}
@@ -49856,6 +50029,10 @@ PrefabInstance:
     - target: {fileID: 4188294387282202406, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -321.79
+=======
+      propertyPath: m_AnchoredPosition.y
+      value: -321.8
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579137, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_Name
@@ -49903,6 +50080,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0a7aa47b7ca9c4b4989266cbb30a0f1a, type: 3}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
@@ -49912,6 +50090,17 @@ PrefabInstance:
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalPosition.y
       value: 25.99
+=======
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.99
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
       objectReference: {fileID: 0}
     - target: {fileID: 4188294387918579143, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -49946,6 +50135,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4188294388500664185, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+<<<<<<< HEAD
       propertyPath: m_SizeDelta.x
       value: 177.3448
       objectReference: {fileID: 0}
@@ -49954,12 +50144,18 @@ PrefabInstance:
       value: -543.79
       objectReference: {fileID: 0}
     - target: {fileID: 4188294388500664185, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+=======
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
       propertyPath: m_AnchoredPosition.y
       value: -321.79453
       objectReference: {fileID: 0}
     - target: {fileID: 4188294388500664190, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_Text
+<<<<<<< HEAD
       value: Obtain 3 capsules
+=======
+      value: 3 Coins
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
       objectReference: {fileID: 0}
     - target: {fileID: 4188294388687898394, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
       propertyPath: m_Camera
@@ -49967,3 +50163,91 @@ PrefabInstance:
       objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0a451ad635182ca48b73008f8b68de5b, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!1001 &7674754857062976829
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1781082485, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: healthPoints
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781082485, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: respawnPosition
+      value: 
+      objectReference: {fileID: 192045899}
+    - target: {fileID: 1781082485, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: initialHealthPoints
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245577, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: textCoins
+      value: 
+      objectReference: {fileID: 801898448}
+    - target: {fileID: 7674754856692245580, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 808754421}
+    - target: {fileID: 7674754856692245580, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: pickUpSound
+      value: 
+      objectReference: {fileID: 132505457}
+    - target: {fileID: 7674754856692245580, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: objectToFind
+      value: 
+      objectReference: {fileID: 1512383998}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -50.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245581, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7674754856692245585, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 53b46800e557a6847a2b3cfbf12973b8, type: 3}
+>>>>>>> parent of b217e84a (Questplacement/Laserdoor/Bossmusic)
